@@ -1,0 +1,9 @@
+CREATE DATABASE myuser;
+
+USE myuser;
+
+CREATE TABLE users(
+id INT AUTO_INCREMENT PRIMARY KEY,
+full_name VARCHAR(50),
+email VARCHAR(50),
+password VARCHAR(50));
